@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import Header from "../partials/Header";
-import { getRecipeInfoAPI } from "../api/recipeAPI";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useParams } from "react-router-dom";
 import ClipLoader from "react-spinners/ClipLoader";
 import { useDispatch, useSelector } from "react-redux";
 import { addWishlistActions } from "../redux/actions";
+import { getRecipeInfoAPI } from "../api/API";
 
 const override = {
   display: "block",

@@ -6,7 +6,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import ClipLoader from "react-spinners/ClipLoader";
-import { getAllRecipeAPI } from "../api/recipeAPI";
+import { getAllRecipeAPI } from "../api/API";
 
 const override = {
   display: "block",
