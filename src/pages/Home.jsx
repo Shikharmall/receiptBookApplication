@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 import Header from "../partials/Header";
 import Pagination from "../components/Pagination";
 import RecipeData from "../components/RecipeData";
-import { getAllRecipeAPI } from "../api/recipeAPI";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import ClipLoader from "react-spinners/ClipLoader";
+import { getAllRecipeAPI } from "../api/recipeAPI";
 
 const override = {
   display: "block",
