@@ -35,6 +35,16 @@ export default function WishList() {
                 </div>
               </Link>
             ))}
+
+            {
+              recipe && recipe.length >0
+              ?
+              null
+              :
+              <div className="flex justify-center items-center">
+                <p className="text-lg text-gray-500 font-500">Wishlist Empty.</p>
+              </div>
+            }
         </div>
       </div>
     </>
